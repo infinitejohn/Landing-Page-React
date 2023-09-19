@@ -80,25 +80,25 @@ function Navbar() {
                     
                     
                         <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
-                            <NavLinks to='/services' onClick={closeMobileMenu}>
+                            <NavLinks to='/' onClick={closeMobileMenu}>
                                 About
                             </NavLinks>
                         </NavItem>
                     
                     
                         <NavItem onClick={handleProductsClick} productsClick={productsClick}>
-                            <NavLinks to='/Products' onClick={closeMobileMenu}>
+                            <NavLinks to='/' onClick={closeMobileMenu}>
                                 Leadership
                             </NavLinks>
                         </NavItem>
 
                         <NavItemBtn >
                             {button ? (
-                                <NavBtnLink to='/sign-up'>
+                                <NavBtnLink to='/'>
                                     <Button primary>SIGN UP</Button>
                                 </NavBtnLink>
                             ) : (
-                                <NavBtnLink to='/sign-up'>
+                                <NavBtnLink to='/'>
                                     <Button onClick={closeMobileMenu} fontBig primary>SIGN UP</Button>
                                 </NavBtnLink>
                             )}

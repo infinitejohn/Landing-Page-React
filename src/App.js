@@ -13,14 +13,15 @@ function App() {
     
       <Router>
           <GlobalStyles />
-          <ScrollToTop />
+          
           <Navbar />
           <Switch>
             <Route path='/' exact component={Home} />
-            <Route path='/services' component={Services} />
-            <Route path='/products' component={Products} />
-            <Route path='/sign-up' component={SignUp} />
+            <Route path='/' component={Services} />
+            <Route path='/' component={Products} />
+            <Route path='/' component={SignUp} />
           </Switch>
+          <ScrollToTop />
           <Footer />
       </Router>
         

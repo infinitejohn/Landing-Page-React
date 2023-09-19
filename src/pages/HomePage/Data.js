@@ -4,10 +4,10 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Marketing Agency',
-    headline: 'Lead Generation Specialist for Online Businesses',
+    topLine: 'NIMechE UNILORIN ',
+    headline: 'Nigerian Institution of Mechanical Engineers (NIMechE), Unilorin NSF Chapter',
     description:
-      'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
+      'To represent, promote and protect the general interest and welfare of the students in all matters',
     buttonLabel: 'Get Started',
     imgStart: '',
     img: require('../../images/svg-1.svg'),

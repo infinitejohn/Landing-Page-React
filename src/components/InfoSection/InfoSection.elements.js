@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const InfoSec = styled.div`
     color: #fff;
     padding: 160px 0;
-    background: ${({lightBg}) => (lightBg ? '#fff' : '#101522')};
+    background: ${({lightBg}) => (lightBg ? '#fff' : '#260D00')};
 `
 
 export const InfoRow = styled.div`
@@ -60,7 +60,7 @@ export const ImgWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
+  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#E85100')};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;

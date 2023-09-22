@@ -73,28 +73,28 @@ function Navbar() {
                     </HamburgerIcon>
                     <NavMenu onClick={handleClick} click={click} >
                         <NavItem onClick={handleHomeClick} homeClick={homeClick}>
-                            <NavLinks to='/' onClick={closeMobileMenu}>
+                            <NavLinks to='/home' onClick={closeMobileMenu}>
                                 Home
                             </NavLinks>
                         </NavItem>
                     
                     
                         <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
-                            <NavLinks to='/' onClick={closeMobileMenu}>
+                            <NavLinks to='/services' onClick={closeMobileMenu}>
                                 About
                             </NavLinks>
                         </NavItem>
                     
                     
                         <NavItem onClick={handleProductsClick} productsClick={productsClick}>
-                            <NavLinks to='/' onClick={closeMobileMenu}>
+                            <NavLinks to='/products' onClick={closeMobileMenu}>
                                 Leadership
                             </NavLinks>
                         </NavItem>
 
                         <NavItemBtn >
                             {button ? (
-                                <NavBtnLink to='/'>
+                                <NavBtnLink to='/sign-up'>
                                     <Button primary>SIGN UP</Button>
                                 </NavBtnLink>
                             ) : (

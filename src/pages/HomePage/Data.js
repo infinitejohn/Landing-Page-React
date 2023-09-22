@@ -10,7 +10,7 @@ export const homeObjOne = {
       'To represent, promote and protect the general interest and welfare of the students in all matters',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: require('../../images/brain-gear.webp'),
+    img: require('../../images/united-gear.webp'),
     alt: 'Credit Card',
     start: ''
   };
@@ -51,11 +51,11 @@ export const homeObjOne = {
   };
   
   export const homeObjFour = {
-    primary: true,
-    lightBg: false,
-    lightTopLine: true,
-    lightText: true,
-    lightTextDesc: true,
+    primary: false,
+    lightBg: true,
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Balanced',
     headline: 'All-round mindset',
     description:

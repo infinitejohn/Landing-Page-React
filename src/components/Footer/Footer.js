@@ -27,6 +27,7 @@ import {
   SocialIcons,
   SocialIconLink
 } from './Footer.elements';
+import { Link} from '@chakra-ui/react'
 
 function Footer() {
 
@@ -85,7 +86,7 @@ function Footer() {
             <SocialIcon />
             NIMechE
           </SocialLogo>
-          <WebsiteRights>hotjohn © {date.getFullYear()} </WebsiteRights>
+          <WebsiteRights> Developed by <Link color='#E85100' href='https://johnoluwagbade.netlify.app/'>hotjohn© {date.getFullYear()}</Link>  </WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />

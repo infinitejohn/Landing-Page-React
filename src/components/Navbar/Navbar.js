@@ -64,7 +64,7 @@ function Navbar() {
         <IconContext.Provider value={{ color: '#fff' }}>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'> 
+                    <NavLogo to='/home'> 
                         <NavIcon />
                             NiMECHe
                     </NavLogo>

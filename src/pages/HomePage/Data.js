@@ -40,7 +40,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: 'Growth',
     headline:
-      'Commited to the continuos development of the community',
+      'Commited to the continuous development of the community',
     description:
       "Their team is wonderful! I can't believe I didn't start working with them earlier.",
     buttonLabel: 'View Case Study',

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
 import { Nav, 
     NavbarContainer, 
     NavLogo, 
@@ -9,10 +9,11 @@ import { Nav,
     NavLinks,
     NavItemBtn,
     NavBtnLink
- } from './Navbar.elements'
+ } from './Navbar.elements';
 import { FaTimes, FaBars } from 'react-icons/fa';
-import { IconContext } from 'react-icons/lib'
+import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles';
+import {Image} from '@chakra-ui/react';
 
 
 function Navbar() {
@@ -65,7 +66,7 @@ function Navbar() {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/home'> 
-                        <NavIcon />
+                        <Image src={require('../../images/mechee-removebg-preview.png')} htmlHeight='20' htmlWidth='60' />
                             NiMECHe
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>

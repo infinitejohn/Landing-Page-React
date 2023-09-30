@@ -6,10 +6,10 @@ export const homeObjOne = {
     topLine: 'Sign up Today',
     headline: 'Join today to receive an exclusive offer',
     description:
-      'Get access to our exclusive diamond king package. Limited quantity available.',
+      'Get access to our exclusive starter package.',
     buttonLabel: 'Sign Up',
     imgStart: '',
-    img: require('../../images/svg-1.svg'),
+    img: require('../../images/united-gear.webp'),
     alt: 'Credit Card'
   };
   

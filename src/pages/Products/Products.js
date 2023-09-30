@@ -28,7 +28,7 @@ function Products() {
     <Image
       src={require('./president.jpg')}
       alt='Green'
-      borderRadius='lg'
+      borderRadius='full'
     />
     <Stack mt='6' spacing='0'>
       <Heading size='md'>President</Heading>
@@ -91,7 +91,7 @@ function Products() {
     <Image
       src={require('../../images/finsec.jpg')}
       alt='Green'
-      borderRadius='lg'
+      borderRadius='full'
     />
     <Stack mt='6' spacing='0'>
       <Heading size='md'>Financial Secretary</Heading>
@@ -112,7 +112,7 @@ function Products() {
     <Image
       src={require('../../images/pro.jpg')}
       alt='Green'
-      borderRadius='lg'
+      borderRadius='full'
     />
     <Stack mt='6' spacing='0'>
       <Heading size='md'>Public Relations Officer</Heading>
